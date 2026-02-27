@@ -1,6 +1,6 @@
 syntax on
 
-if strftime("%H") > 18
+if strftime("%H") < 18
   colorscheme morning
 else
   colorscheme evening

@@ -1,4 +1,4 @@
-if strftime("%H") > 18
+if strftime("%H") < 18
   augroup ColorResp
     au!
     au VimEnter * set background=light
